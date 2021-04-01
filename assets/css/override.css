@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Poppins:wght@300;500;600;800&display=swap');
+#logo {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.size30px {
+    font-size: 30px !important;
+}
+
+.size25px {
+    font-size: 23px !important;
+}
+
+.button.circled.scrolly {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.social-btn{
+    height: 30px;
+    
+}
+
+#nav li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    margin-top: 0px;
+}
+
+.social-btn:hover {
+    filter: invert(0);
+    /* background: url(../../images/linkedin_color.png) no-repeat;
+    height: 30px; */
+}
+
+.inner p{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.featured {
+    padding-top: 30px;
+}
+
+.wrapper.style2{
+    padding-bottom: 20px;
+}
+
+article.col-4.col-12-mobile.special{
+    margin-bottom: 0;
+    padding-top: 0;
+}
