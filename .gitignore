@@ -1,5 +1,20 @@
-# Created by https://www.toptal.com/developers/gitignore/api/vscode,macos,windows,webstorm
-# Edit at https://www.toptal.com/developers/gitignore?templates=vscode,macos,windows,webstorm
+# Created by https://www.toptal.com/developers/gitignore/api/macos,vscode,windows,webstorm,linux,microsoftoffice
+# Edit at https://www.toptal.com/developers/gitignore?templates=macos,vscode,windows,webstorm,linux,microsoftoffice
+
+### Linux ###
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
 
 ### macOS ###
 # General
@@ -29,6 +44,27 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+### MicrosoftOffice ###
+*.tmp
+
+# Word temporary
+~$*.doc*
+
+# Word Auto Backup File
+Backup of *.doc*
+
+# Excel temporary
+~$*.xls*
+
+# Excel Backup File
+*.xlk
+
+# PowerPoint temporary
+~$*.ppt*
+
+# Visio autosave temporary files
+*.~vsd*
 
 ### vscode ###
 .vscode/*
@@ -167,4 +203,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/vscode,macos,windows,webstorm
+# End of https://www.toptal.com/developers/gitignore/api/macos,vscode,windows,webstorm,linux,microsoftoffice
