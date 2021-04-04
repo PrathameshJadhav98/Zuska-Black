@@ -58,3 +58,11 @@ article.col-4.col-12-mobile.special{
     margin-bottom: 0;
     padding-top: 0;
 }
+
+@media screen and (max-width: 736px) {
+
+    #start-btn{
+        display: none !important;
+    }
+    
+}
